@@ -1,0 +1,39 @@
+@media(max-width:426px){
+    .header .logo{
+        margin-left: 0;
+        padding: 0;
+    }
+    .header .nav-toggler{
+        margin-right: 10%;
+    }
+    .home-text h1{
+        font-size: 40px;
+    }
+    .btn{
+        padding: 8px 16px;
+    }
+    .home-section{
+        /* background-color: red; */
+    }
+    .about-section .row{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .about-text,
+    .about-img{
+    width: 100%;
+}
+.about-img{
+    margin-top: 20px;
+}
+.menu-tab-content{
+    /* width: 100%; */
+}
+.menu-tab-content.active{
+    display: block;
+    
+}
+.menu-item{
+    /* width: 100%; */
+}
+}
